@@ -1,0 +1,17 @@
+{
+  "repo": "tidal-store-planner-bench",
+  "thresholds": {
+    "signal": 4,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 2,
+    "ship": 193,
+    "watch": 117
+  },
+  "terms": [
+    "index fit",
+    "join width",
+    "constraint risk",
+    "plan drift"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "repo": "tidal-store-planner-bench",
+  "language": "Swift",
+  "category": "Databases",
+  "goal": "Develop a Swift command-oriented project for planner scenarios with layout fixtures, stable geometry snapshots, and no network dependency.",
+  "weights": {
+    "signal": 4,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 2
+  },
+  "thresholds": {
+    "ship": 193,
+    "watch": 117
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}
